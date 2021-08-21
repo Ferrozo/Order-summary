@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-container {
+    width: 100%;
+    min-height: 100vh;
+    background: url(/img/pattern-background-desktop.svg), hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 520px;
+    z-index: 2;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.card-intro--img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 150px;
+    background: url(/img/illustration-hero.svg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.card-info {
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info h3 {
+    font-weight: 800;
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+.card-info p{
+    font-size: 14px;
+    text-align: center;
+    color:rgb(173, 178, 187) ;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.plan-info {
+    width: 80%;
+    height: 60px;
+    background: hsl(245, 12%, 96%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-value {
+    font-size: 14px;
+    color: grey;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.plan-info img {
+    width: 45px;
+    height: 45px;
+}
+.plan-info a{
+    color: hsl(245, 75%, 52%);
+}
+
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-footer a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.proced-btn {
+    width: 80%;
+    background: hsl(245, 75%, 52%);
+    height: 35px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 2px 5px 2px 0px hsl(223, 47%, 80%);
+}
+
+.proced-btn:hover{
+    background: hsl(245, 75%, 60%);
+}
+
+.cancelar-btn {
+    color: hsl(0, 0%, 53%);
+}
+
+.cancelar-btn:hover{
+    color: #000;
+}
+
+@media (max-width:375px){
+    
+    body{
+        padding: 0%;
+    }
+    .card-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .card-container {
+        background: hsl(225, 100%, 94%);
+    }
+}
