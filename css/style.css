@@ -10,7 +10,7 @@ body {
 .card-container {
     width: 100%;
     min-height: 100vh;
-    background: url(/https://icedrive.net/0/eea3FnFIX4), hsl(225, 100%, 94%);
+    background: url("https://icedrive.net/0/eea3FnFIX"), hsl(225, 100%, 94%);
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
