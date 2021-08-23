@@ -10,7 +10,7 @@ body {
 .card-container {
     width: 100%;
     min-height: 100vh;
-    background: url("https://icedrive.net/0/eea3FnFIX"), hsl(225, 100%, 94%);
+    background: url("../img/pattern-background-desktop.svg"), hsl(225, 100%, 94%);
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 150px;
-    background: url("./img/illustration-hero.svg");
+    background: url("../img/illustration-hero.svg");
     background-position: center;
     background-size: cover;
 
